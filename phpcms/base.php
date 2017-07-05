@@ -9,7 +9,7 @@
 define('IN', true);
 
 //PHPCMS框架路径
-define('PC_PATH', dirname(__FILE__).DIRECTORY_SEPARATOR);
+define('PC', dirname(__FILE__).DIRECTORY_SEPARATOR);
 
 if(!defined('PHPCMS_PATH')) define('PHPCMS_PATH', PC_PATH.'..'.DIRECTORY_SEPARATOR);
 
