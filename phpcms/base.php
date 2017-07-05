@@ -11,7 +11,7 @@ define('IN', true);
 //PHPCMS框架路径
 define('PC', dirname(__FILE__).DIRECTORY_SEPARATOR);
 
-if(!defined('PHPCMS_PATH')) define('PHPCMS_PATH', PC_PATH.'..'.DIRECTORY_SEPARATOR);
+if(!defined('P')) define('PHPCMS_PATH', PC_PATH.'..'.DIRECTORY_SEPARATOR);
 
 //缓存文件夹地址
 define('CACHE_PATH', PHPCMS_PATH.'caches'.DIRECTORY_SEPARATOR);
