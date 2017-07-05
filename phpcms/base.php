@@ -6,7 +6,7 @@
  * @license				http://www.phpcms.cn/license/
  * @lastmodify			2010-6-7
  */
-define('IN_PHPCMS', true);
+define('IN_PHPCMS', false);
 
 //PHPCMS框架路径
 define('PC_PATH', dirname(__FILE__).DIRECTORY_SEPARATOR);
